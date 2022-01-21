@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_content_blocks",
+  "info": {
+    "displayName": "contentBlock",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
