@@ -8,4 +8,11 @@ module.exports = [
   'strapi::body',
   'strapi::favicon',
   'strapi::public',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      header: '*',
+    }
+  },
 ];

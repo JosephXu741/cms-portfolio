@@ -1,9 +1,0 @@
-module.exports = {
-    settings: {
-      cors: {
-        enabled: true, 
-        headers: '*', 
-        origin: ["http://localhost", 'https://cms-personal-portfolio.herokuapp.com/'],
-      },
-    },
-  };
