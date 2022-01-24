@@ -19,6 +19,15 @@
       "type": "component",
       "repeatable": true,
       "component": "content.content-block"
+    },
+    "heroBanner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
